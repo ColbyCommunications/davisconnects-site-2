@@ -47,12 +47,12 @@ dependencies:
 
 # The hooks that will be performed when the package is deployed.
 hooks:
-    build: !include
-      type: string
-      path: project/platform/hooks.build.yaml
-    deploy: !include
-      type: string
-      path: project/platform/hooks.deploy.yaml
+  build: !include
+    type: string
+    path: project/platform/hooks.build.yaml
+  deploy: !include
+    type: string
+    path: project/platform/hooks.deploy.yaml
 
 variables:
   env: !include project/platform/variables.env.yaml
