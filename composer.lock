@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79f6cc1709b27793cc7dc616640ba461",
+    "content-hash": "b9dabd7b96ae7239410ad89ff8175335",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -153,15 +153,14 @@
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "dev-add-logos-to-customize",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "056c87f322eee6e553418ea5726781b87b3eefdf"
+                "reference": "db92de3e33d145d46c9dcd26ec209ba700b9d01d"
             },
             "require": {
-                "php": ">=7.1",
-                "timber/timber": "2.3.1"
+                "php": ">=7.1"
             },
             "type": "wordpress-theme",
             "authors": [
@@ -174,7 +173,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-08-21T19:38:50+00:00"
+            "time": "2025-05-01T18:19:42+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -5987,6 +5986,24 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
+            "name": "wpackagist-plugin/svg-support",
+            "version": "2.5.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/svg-support/",
+                "reference": "tags/2.5.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/svg-support.2.5.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/svg-support/"
+        },
+        {
             "name": "wpackagist-plugin/user-switching",
             "version": "1.9.1",
             "source": {
@@ -6080,9 +6097,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "colbycommunications/colby-college-theme": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
