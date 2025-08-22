@@ -1,5 +1,5 @@
 # This file describes an application. You can have multiple applications
-# in the same project..
+# in the same project.
 
 # The name of this app. Must be unique within a project.
 name: app
@@ -29,6 +29,7 @@ mounts:
   "/web/.well-known/pki-validation":
     source: local
     source_path: web
+  "/web/wp-content/themes/colby-college-theme/simplesaml": "shared:files/simplesaml"
 
 # The configuration of app when it is exposed to the web.
 web:
@@ -47,12 +48,12 @@ dependencies:
 
 # The hooks that will be performed when the package is deployed.
 hooks:
-  build: !include
-    type: string
-    path: project/platform/hooks.build.yaml
-  deploy: !include
-    type: string
-    path: project/platform/hooks.deploy.yaml
+    build: !include
+      type: string
+      path: project/platform/hooks.build.yaml
+    deploy: !include
+      type: string
+      path: project/platform/hooks.deploy.yaml
 
 variables:
   env: !include project/platform/variables.env.yaml
