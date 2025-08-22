@@ -1,0 +1,9 @@
+{
+    "require": {},
+    "repositories": [],
+    "extra": {
+        "installer-paths": {
+            "web/wp-content/mu-plugins/{$name}": []
+        }
+    }
+}
