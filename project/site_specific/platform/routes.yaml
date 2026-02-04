@@ -4,6 +4,6 @@
 '^/wp-admin/(.*)':
   to: "/wp/wp-admin/$1"
   regexp: true
-'^/funding-opportunities/students/?lor=1&utm_source=mass_mailer&utm_medium=email&utm_campaign=uni_targeted_emails/?$':
+'^/funding-opportunities/students/?$':
   to: "/funding/student-funding/"
   regexp: true
