@@ -7,3 +7,44 @@
 '^/funding-opportunities/students/?$':
   to: "/funding/student-funding/"
   regexp: true
+  code: 301
+'^/advising/?$':
+  to: "/career-design-and-industry-specialist-advising/"
+  regexp: true
+  code: 301
+'^/global-experiences/?$':
+  to: "/global-education-opportunities-geo/"
+  regexp: true
+  code: 301
+'^/global-experiences/jan-plan-experiential-learning/?$':
+  to: "/global-education-opportunities-geo/"
+  regexp: true
+  code: 301
+'^/global-experiences/jan-plan-experiential-learning/january-plan-experiential-learning-options/?$':
+  to: "/global-education-opportunities-geo/"
+  regexp: true
+  code: 301
+'^/global-experiences/jan-plan-experiential-learning/january-plan-experiential-learning-options/register-for-internship-credit/?$':
+  to: "/global-education-opportunities-geo/"
+  regexp: true
+  code: 301
+'^/global-experiences/jan-plan-experiential-learning/faculty-led-january-plan-courses/?$':
+  to: "/global-education-opportunities-geo/"
+  regexp: true
+  code: 301
+'^/global-experiences/global-engagement-courses/?$':
+  to: "/global-education-opportunities-geo/"
+  regexp: true
+  code: 301
+'^/global-experiences/fellowships/?$':
+  to: "/fellowships-advising/"
+  regexp: true
+  code: 301
+'^/global-experiences/fellowships/?$':
+  to: "/fellowships-advising/"
+  regexp: true
+  code: 301
+'^/learn-more-and-get-involved/?$':
+  to: "/"
+  regexp: true
+  code: 301
