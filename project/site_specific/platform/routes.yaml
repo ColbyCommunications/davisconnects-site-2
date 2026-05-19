@@ -44,3 +44,7 @@
   to: "/"
   regexp: true
   code: 301
+'^/global-experiences/jan-plan-experiential-learning/january-plan-experiential-learning-options/register-for-internship-credit/?$':
+  to: "/funding/register-for-internship-credit/"
+  regexp: true
+  code: 301
