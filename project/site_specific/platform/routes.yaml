@@ -40,10 +40,6 @@
   to: "/fellowships-advising/"
   regexp: true
   code: 301
-'^/global-experiences/fellowships/?$':
-  to: "/fellowships-advising/"
-  regexp: true
-  code: 301
 '^/learn-more-and-get-involved/?$':
   to: "/"
   regexp: true
