@@ -44,3 +44,7 @@
   to: "/"
   regexp: true
   code: 301
+'^/moodle/?$':
+  to: "https://moodle.colby.edu/course/view.php?id=33103/"
+  regexp: true
+  code: 301
