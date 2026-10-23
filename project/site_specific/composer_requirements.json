@@ -1,6 +1,6 @@
 {
     "require": {
-        "wpackagist-plugin/svg-support": "2.5.8"
+        "wpackagist-plugin/svg-support": "2.6.1"
     },
     "repositories": [],
     "extra": {
